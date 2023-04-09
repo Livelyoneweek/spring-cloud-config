@@ -1,0 +1,5 @@
+token:
+  expiration_time: 86400000
+  secret: '{cipher}AQB+YRUKgmXGiVVhLOCaEbxar0SgREJ3L+dKukvJskAj/LJLQ9+1kuEJdEt5OWI6zW9uwOPgI7o4OuqNGJ74r7TKL6YLjaxjX3S7lKfasj7pqDNiIjSBye62yJxiaV3cRKfKOGoh7SCrrzYWfeKMY4yEsqcIZvlM307jh2vMYc2FMn05LrBLw1YftnXC9GeF2SHI9chGfIkTPdrxqN8HIbFzyw6M1eFRjh/GyKh1wNgdk9CVziyfvDH7NygdaLT3XaKIsEsYOKqvWM5HuSSHzu71dHaqQylpAzVvJFQ13rXcoOpjzEp5YaIirA5hH4wD4bgMtw5lnvMA0RhpWcP1yinZHgxiz35mMAbjNdTYa+0ZR/Y53h1jEn+/M1eQLKtqwTk='
+
+#공통 정보는 application.yml 옮겨놓으면 관리가 편함. application.yml은 항상 불림
