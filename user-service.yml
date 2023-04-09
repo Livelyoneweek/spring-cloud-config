@@ -10,4 +10,5 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: 1234
+    password: '{cipher}117eb2524ebba542b68238632a63ec84c914b99fcf21bec60415dcd47578716c'
+    #'{cipher}' 라고하면 암호화된 텍스트로 인식하여 config service에서 encrypt key 값으로 복호화 함
