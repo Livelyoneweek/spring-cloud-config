@@ -9,3 +9,6 @@ spring:
     username: sa
     password: '{cipher}AQActCUhJUaLBD8x+fxQvg/C2IL56eNejV9F4QqMxpyQldRHTtyzWjpPekT3wvwx4yi78GnxoDjYYMYg7n/1naRMlE+2Ev59TM+EYDR/stgNNjvCzQaNYIHBO7xT2eydvSntAg0fnk30z+bbP42G+Ciq+614yANUzUzRRLLomJhrTg1Vjt//d8V4XYWUwxeGtGk0NROgHzRP1VAncUhgz1z8X369MuICf8pM6blr0FeSTcOhzgj6mI97IDezJBAxk3xo3apqjm2rMiiHCjHqHn9sTHr0Ddwa7tarSdtY3k1N5DmJxjDLWpkeLS6+ds0t20uemBAzXhtDOvu07z0oDeyFQyUrGfgbgvdmQOrLwpxuLf9yxuHR9nh27rT2aovxf08='
     #'{cipher}' 라고하면 암호화된 텍스트로 인식하여 config service에서 encrypt key 값으로 복호화 함
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
