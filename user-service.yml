@@ -11,4 +11,4 @@ spring:
     #'{cipher}' 라고하면 암호화된 텍스트로 인식하여 config service에서 encrypt key 값으로 복호화 함
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://127.0.0.1:8080/order-service/%s/orders
